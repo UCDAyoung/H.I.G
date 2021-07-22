@@ -1,19 +1,43 @@
 # H.I.G
-Human Interface Guildlines in iOS / (공부 기록) 
+Human Interface Guildlines in iOS
 --- 
-
-App Architecture
-
-
-[1. Launching](#Architecture1)
-[2. Onboarding](#architecture2)
-[3. Loading](#architecture3)
-[4. Modality](#architecture4)
-[5. Navigation](#architecture5)
-[6. Acessing User Data](#architecture6)
-[7. Settings](#architecture7)
+(저의 이해를 확인하기 위한 공부 노트이기에 설명이 부실할 수 있습니다.)
 
 
-[1](#architecture1)
+
+### #H.I.G란?
+
+개발자들의 경험과 노하우들을 바탕으로 사용자들에게 좋은 경험을 선사할 수 있는 앱을 만들 수 있게 만들어놓은 가이드라인 
+
+### #왜 H.I.G를 읽어야 하는지? 
+
+- 개발자 뿐 아니라, 디자이너, 기획자 모두 유저에게 좋은 경험을 선사할 수 있는 App을 만드는 것이 목적이기에 공통된 가이드라인이 될 수 있다. 
+- 더 확실히 유저를 고려한 App을 만들 수 있을 것 같다.(유저에게 좋은 경험들을 내놓을 수 있는 것들을 공식화해놓은 것 같다.) 
+- 일관성을 유지할 수 있다. 
+- 이미 검증된 경험이고, 사용해본 경험이기에 유저가 App에 대해 위화감없이 다가갈 수 있다. 
+
+---
+
+### App Architecture
+
+[1. Launching](#architecture1)<br>
+[2. Onboarding](#architecture2)<br>
+[3. Loading](#architecture3)<br>
+[4. Modality](#architecture4)<br>
+[5. Navigation](#architecture5)<br>
+[6. Acessing User Data](#architecture6)<br>
+[7. Settings](#architecture7)<br>
+
+---
+
+### 1. Launching <br>
+ 
+- 시작화면은 빠르고 잘 반응하고 부드러워야한다. 시작화면은 유저에게 너의 어플에 대한 첫인상을 결정하는 중요한 요소이다.
+- 화면 방향은 현 화면방향을 유지하되, 사용자에게 필요에 따라 왼쪽이든, 오른쪽이든 화면을 변경할 수 있는 권한을 주면 된다.
+- 앱 설정에 대한 정보는 미리 띄우지 말고, 유저가 필요하다면 찾아서 사용할 수 있게 하면 된다. 
+- 인앱 라이선스 계약 및 면책 조항을 표시하지말고, 다운로드하기 전에 읽을 수 있도록 표시해놓는다. (사용자 경험을 방해하지 않는 것임)
+- 앱이 다시 시작되어도 이전 상태를 유지시켜 계속 사용할 수 있도록 한다. 
+- 재부팅이 되는 경우(오류발생,메모리초과 등)을 최대한 없앤다. 
+- 앱 평가를 빨리 그리고 자주 요청하지 않는다.
 
 

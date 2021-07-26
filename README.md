@@ -20,8 +20,8 @@ Human Interface Guildlines in iOS
 
 ### App Architecture
 
-[1. Launching](#1.-launching)<br>
-[2. Onboarding](#Architecture2)<br>
+1. [Launching](#launching)<br>
+2. [Onboarding](#onboarding)<br>
 [3. Loading](#Architecture3)<br>
 [4. Modality](#Architecture4)<br>
 [5. Navigation](#Architecture5)<br>
@@ -40,7 +40,7 @@ Human Interface Guildlines in iOS
 - 재부팅이 되는 경우(오류발생,메모리초과 등)을 최대한 없앤다. 
 - 앱 평가를 빨리 그리고 자주 요청하지 않는다.
 
-### [2. Onboarding](#architecture2) <br>
+### 2. Onboarding<br>
 Onboarding의 역할은 새로운 유저들과 재방문유저들을 환영하는 용도 
 - 직관적이면서 약간의 요약을 보여주어 앱에 대해 알려주는 용도 
 - 만약 튜토리얼을 제공해야한다면 반드시 skip을 제공해서 유저들이 선택적으로 학습할 수 있게 해줘야 한다.

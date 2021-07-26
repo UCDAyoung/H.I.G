@@ -20,17 +20,18 @@ Human Interface Guildlines in iOS
 
 ### App Architecture
 
-1. [Launching](#launching)<br>
+1. [Launching](#launching) <br>
 2. [Onboarding](#onboarding)<br>
-[3. Loading](#Architecture3)<br>
-[4. Modality](#Architecture4)<br>
-[5. Navigation](#Architecture5)<br>
-[6. Acessing User Data](#Architecture6)<br>
-[7. Settings](#Architecture7)<br>
+3. [Loading](#loading) <br>
+4. [Modality](#modality) <br>
+5. [Navigation](#navigation) <br>
+6. [Acessing User Data](#acessing-user-date) <br>
+7. [Settings](#settings) <br>
 
 ---
+Launching<br>
 
-### 1. Launching<br>
+### 1. Launching <br>
  
 - 시작화면은 빠르고 잘 반응하고 부드러워야한다. 시작화면은 유저에게 너의 어플에 대한 첫인상을 결정하는 중요한 요소이다.
 - 화면 방향은 현 화면방향을 유지하되, 사용자에게 필요에 따라 왼쪽이든, 오른쪽이든 화면을 변경할 수 있는 권한을 주면 된다.

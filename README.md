@@ -20,17 +20,17 @@ Human Interface Guildlines in iOS
 
 ### App Architecture
 
-[1. Launching](#architecture1)<br>
-[2. Onboarding](#architecture2)<br>
-[3. Loading](#architecture3)<br>
-[4. Modality](#architecture4)<br>
-[5. Navigation](#architecture5)<br>
-[6. Acessing User Data](#architecture6)<br>
-[7. Settings](#architecture7)<br>
+[1. Launching](#Architecture1)<br>
+[2. Onboarding](#Architecture2)<br>
+[3. Loading](#Architecture3)<br>
+[4. Modality](#Architecture4)<br>
+[5. Navigation](#Architecture5)<br>
+[6. Acessing User Data](#Architecture6)<br>
+[7. Settings](#Architecture7)<br>
 
 ---
 
-### 1. Launching <br>
+### [1. Launching](#architecture1) <br>
  
 - 시작화면은 빠르고 잘 반응하고 부드러워야한다. 시작화면은 유저에게 너의 어플에 대한 첫인상을 결정하는 중요한 요소이다.
 - 화면 방향은 현 화면방향을 유지하되, 사용자에게 필요에 따라 왼쪽이든, 오른쪽이든 화면을 변경할 수 있는 권한을 주면 된다.
@@ -40,7 +40,7 @@ Human Interface Guildlines in iOS
 - 재부팅이 되는 경우(오류발생,메모리초과 등)을 최대한 없앤다. 
 - 앱 평가를 빨리 그리고 자주 요청하지 않는다.
 
-### 2. Onboarding <br>
+### [2. Onboarding](#architecture2) <br>
 Onboarding의 역할은 새로운 유저들과 재방문유저들을 환영하는 용도 
 - 직관적이면서 약간의 요약을 보여주어 앱에 대해 알려주는 용도 
 - 만약 튜토리얼을 제공해야한다면 반드시 skip을 제공해서 유저들이 선택적으로 학습할 수 있게 해줘야 한다.
@@ -48,7 +48,7 @@ Onboarding의 역할은 새로운 유저들과 재방문유저들을 환영하�
 - 원래 게임하면서,사용해보면서 배우는 것이 좋은 방법인 것처럼 일단 유저들을 바로 사용할 수 있는게 관건
 <img width="348" alt="스크린샷 2021-07-23 오후 11 53 45" src="https://user-images.githubusercontent.com/70427427/126800321-b13351b3-cd83-44b3-8b61-78d9ab91c3e2.png">
 
-### 3. Loading <br>
+### [3. Loading](#architecture3) <br>
 로딩 시 같은 화면이나, 빈 화면을 띄울 경우 앱이 고장난건지,어플이 고장난건지 등 사용자에게 혼란을 줄 수 있겠지?? 그러니 로딩화면에 대해서 알아보자. 
 - 가장 기본적인 건 톱니바퀴?돌아가고 있는 사인을 보여주는 것. 진행상태를 보여주는 바를 보여주는게 더 낫다 
 - 로딩화면은 빠를수록 좋다. 모두가 느끼는 것. 한국인은 특히 빠른 걸 좋아하기 때문에 더욱 더 기다리게해서는 안되겠다 ㅎㅎ..

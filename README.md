@@ -22,11 +22,11 @@ Human Interface Guildlines in iOS
 
 - [1. Launching](#1-launching) <br>
 - [2. Onboarding](#2-onboarding)<br>
-3. [Loading](#loading) <br>
-4. [Modality](#modality) <br>
-5. [Navigation](#navigation) <br>
-6. [Acessing User Data](#acessing-user-date) <br>
-7. [Settings](#settings) <br>
+- [3. Loading](#3-loading) <br>
+- [Modality](#4-modality) <br>
+- [Navigation](#5-navigation) <br>
+- [Acessing User Data](#6-acessing-user-date) <br>
+- [Settings](#7-settings) <br>
 
 ---
 
@@ -48,7 +48,7 @@ Onboarding의 역할은 새로운 유저들과 재방문유저들을 환영하�
 - 원래 게임하면서,사용해보면서 배우는 것이 좋은 방법인 것처럼 일단 유저들을 바로 사용할 수 있는게 관건
 <img width="348" alt="스크린샷 2021-07-23 오후 11 53 45" src="https://user-images.githubusercontent.com/70427427/126800321-b13351b3-cd83-44b3-8b61-78d9ab91c3e2.png">
 
-### [3. Loading](#architecture3) <br>
+### 3. Loading<br>
 로딩 시 같은 화면이나, 빈 화면을 띄울 경우 앱이 고장난건지,어플이 고장난건지 등 사용자에게 혼란을 줄 수 있겠지?? 그러니 로딩화면에 대해서 알아보자. 
 - 가장 기본적인 건 톱니바퀴?돌아가고 있는 사인을 보여주는 것. 진행상태를 보여주는 바를 보여주는게 더 낫다 
 - 로딩화면은 빠를수록 좋다. 모두가 느끼는 것. 한국인은 특히 빠른 걸 좋아하기 때문에 더욱 더 기다리게해서는 안되겠다 ㅎㅎ..

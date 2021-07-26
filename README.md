@@ -29,9 +29,8 @@ Human Interface Guildlines in iOS
 7. [Settings](#settings) <br>
 
 ---
-Launching<br>
 
-### 1. Launching <br>
+# 1. Launching <br>
  
 - 시작화면은 빠르고 잘 반응하고 부드러워야한다. 시작화면은 유저에게 너의 어플에 대한 첫인상을 결정하는 중요한 요소이다.
 - 화면 방향은 현 화면방향을 유지하되, 사용자에게 필요에 따라 왼쪽이든, 오른쪽이든 화면을 변경할 수 있는 권한을 주면 된다.

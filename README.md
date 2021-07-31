@@ -24,7 +24,7 @@ Human Interface Guildlines in iOS
 - [2. Onboarding](#2-onboarding)<br>
 - [3. Loading](#3-loading) <br>
 - [4. Modality](#4-modality) <br>
-- [Navigation](#5-navigation) <br>
+- [5. Navigation](#5-navigation) <br>
 - [Acessing User Data](#6-acessing-user-date) <br>
 - [Settings](#7-settings) <br>
 
@@ -86,3 +86,37 @@ ios13버전 이후부터는 모달로 띄어주는 방법이 2가지가 있다�
 
 여기까지 H.I.G 문서를 읽으며 쓰고 있는데 experience라는 단어가 계속해서 언급이 된다. 정말 사용자 경험을 중요시 여기는구나 생각이 든다.
 나처럼 아직 앱을 만들어본 경험이 없는 사람에게 사용자 경험에 대해 신경쓴다는 의미가 와닿지 않는 사람이 읽으면 좋을 것 같다. 
+
+
+### 5. Navigation  <br>
+사용자들은 앱이 자신의 기대에 미치지 못할 때 까지, 앱의 네비게이션에 대해 알지 못하는 경향이 있다 -> 이게 무슨 말이지..  <br>
+최대한 자연스럽고 친숙하게 , 인터페이스보다 집중하게 만든다거나, 앱의 콘텐츠로부터 집중력을 떨어뜨리게 하면 안된다.  <br>
+* 네이게이션의 3가지 메인 스타일 <br>
+1.  Hierachical <br>
+    1.1  설명 <br>
+         - 계층구조라서 유저가 어떤 화면에 도달하기까지 각 화면에서 한 가지의 선택을 해서 찾아가야한다.  <br>
+         - 다른 화면으로 이동하기 위해서는 처음부터 시작하거나, 돌아왔던 길을 다시 돌아가야한다 <br>
+         - 사용되는 곳 : 설정 or 메일 <br>
+         <img width="448" alt="스크린샷 2021-08-01 오전 1 18 43" src="https://user-images.githubusercontent.com/70427427/127746034-114aefdf-cee0-4b72-9e21-e082f4d33b2b.png"><br>
+
+2.  Flat <br>
+
+    2.1 설명 <br>
+        - 다수의 카테고리를 이용해 스위칭 가능 <br>
+        - 사용되는 곳 : 앱스토어, 음악 앱 <br>
+        <img width="396" alt="스크린샷 2021-08-01 오전 1 18 57" src="https://user-images.githubusercontent.com/70427427/127746039-4a44a2cb-f285-4290-96e9-3af5e25245e0.png"><br>
+        
+3.  Content-Driven or Experience-Driven <br>
+    3.1 설명 <br>
+        - 그림과 같이 컨텐츠 사이를 자유롭게 오갈 수 있다. <br>
+        - 사용되는 곳 : 게임,책 어플 <br>
+ <img width="564" alt="스크린샷 2021-08-01 오전 1 19 46" src="https://user-images.githubusercontent.com/70427427/127746057-530b9d4c-c7d0-4b7a-aa5c-18a4b1ceea97.png"><br>
+
+* 추가설명 
+- 여러 네비게이션 방식을 결합해서 사용
+- 유저 스스로가 어디로 갈지를 명확히 알고 갈 수 있을정도로, 명확한 이동경로를 제공해야 한다. 
+- 최소한의 구조만 가질 수 있게, 그 만큼 간결하고 쉽고 빠르게 설계해라 
+- 최소한의 터치?friction?만으로 이동할 수 있게 해라 (그 만큼 쉽게 이동할 수 있게 하라는 말인 듯)
+- 유저에게 항상 익숙한 경험을 제공하는게 중요한가보다 표준 네비게이션을 사용하라고 한다. 
+- 툴바,탭바 등을 이용해서 확실히 명확하게 길을 인지시켜주는게 관건인 것 같다. 계속해서 언급된다.
+- 같은 토픽?컨텐츠?를 담아야 하는 화면들이 여러 개라면 page control 을 이용하라! 

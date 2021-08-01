@@ -1,7 +1,7 @@
 # H.I.G
 Human Interface Guildlines in iOS
 --- 
-(저의 이해를 확인하기 위한 공부 노트이기에 설명이 부실할 수 있습니다.)
+(저의 이해를 확인하기 위한 공부 노트.)
 
 
 
@@ -130,14 +130,14 @@ ios13버전 이후부터는 모달로 띄어주는 방법이 2가지가 있다�
 
 > #Important notification <br>
 iOS 14.5 그리고 iPadOs 14.5부터,[AppTrackingTransparency framework](https://developer.apple.com/documentation/apptrackingtransparency)를 사용하여 다음과 같은 권한을 확인 받아야 한다. <br>
-- track(사용자의 어플 활용데이터를 tracking? 하는건가 아직 사용해보지 않아서 모르겠다.) <br>
-- 사용자의 광고에 관여해도 되는지도 확인해야하는 것 같다. <br>
+> - track(사용자의 어플 활용데이터를 tracking? 하는건가 아직 사용해보지 않아서 모르겠다.) <br>
+> - 사용자의 광고에 관여해도 되는지도 확인해야하는 것 같다. <br>
 
-<img width="293" alt="스크린샷 2021-08-02 오전 12 08 02" src="https://user-images.githubusercontent.com/70427427/127775876-2fdd9f4e-1e73-4877-a2ae-4f5bcdcab39c.png">
+<img width="293" alt="스크린샷 2021-08-02 오전 12 08 02" src="https://user-images.githubusercontent.com/70427427/127776209-3fca49ca-c77b-4709-ae23-25ecbd2cdcc1.png">
 
 새로 앱을 출시하거나 업데이트를 할 때 어떤 데이터를 활용하는지, 어떻게 활용하는지하는지 product화면에 게시해야 한다. 
 여기서 [App Strore Connect](https://help.apple.com/app-store-connect/#/dev1b4647c5b) 관리가 가능하다. <br> 
 다운로드하기 전에 유저가 위와 같은 detail을 읽고 결정할 수 있는 권한을 쥐여주는 것이다. <br>
-더 자세한 사항은 [App privacy details on the App Store](https://developer.apple.com/documentation/apptrackingtransparency) <br>
+더 자세한 사항은 [App privacy details on the App Store](https://developer.apple.com/documentation/apptrackingtransparency) 확인 <br>
 
 

@@ -120,3 +120,24 @@ ios13버전 이후부터는 모달로 띄어주는 방법이 2가지가 있다�
 - 유저에게 항상 익숙한 경험을 제공하는게 중요한가보다 표준 네비게이션을 사용하라고 한다. 
 - 툴바,탭바 등을 이용해서 확실히 명확하게 길을 인지시켜주는게 관건인 것 같다. 계속해서 언급된다.
 - 같은 토픽?컨텐츠?를 담아야 하는 화면들이 여러 개라면 page control 을 이용하라! 
+
+### 6. Accessing User Data
+유저의 권한이 가장 중요하다. 사람들이 앱에 신뢰를 갖기 위해서는 사적인 데이터들, 그리고 이들의 사용여부가 투명해야한다. 반드시 권한을 요청해서 접근해야한다. 
+- 개인적인 정보 : 위치, 건강, 재정, 연락처, 다른 신상정보 
+- 사용자로 인해 발생한 데이터 : 이메일, 메세지, 일정표, 연락처, 게임정보, 음악리스트?, Homekit data(와.. 이런 것 까지?), 음성메세지, 영상, 사진 등 
+- protected 자원(?) :  블루투스 연결, 와이파이 연결, 로컬 네트워크 접근
+- 장치 이용 가능 여부 : 마이크, 카메라 <br> 
+
+> #Important notification <br>
+iOS 14.5 그리고 iPadOs 14.5부터,[AppTrackingTransparency framework](https://developer.apple.com/documentation/apptrackingtransparency)를 사용하여 다음과 같은 권한을 확인 받아야 한다. <br>
+- track(사용자의 어플 활용데이터를 tracking? 하는건가 아직 사용해보지 않아서 모르겠다.) <br>
+- 사용자의 광고에 관여해도 되는지도 확인해야하는 것 같다. <br>
+
+<img width="293" alt="스크린샷 2021-08-02 오전 12 08 02" src="https://user-images.githubusercontent.com/70427427/127775876-2fdd9f4e-1e73-4877-a2ae-4f5bcdcab39c.png">
+
+새로 앱을 출시하거나 업데이트를 할 때 어떤 데이터를 활용하는지, 어떻게 활용하는지하는지 product화면에 게시해야 한다. 
+여기서 [App Strore Connect](https://help.apple.com/app-store-connect/#/dev1b4647c5b) 관리가 가능하다. <br> 
+다운로드하기 전에 유저가 위와 같은 detail을 읽고 결정할 수 있는 권한을 쥐여주는 것이다. <br>
+더 자세한 사항은 [App privacy details on the App Store](https://developer.apple.com/documentation/apptrackingtransparency) <br>
+
+

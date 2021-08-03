@@ -141,3 +141,27 @@ iOS 14.5 그리고 iPadOs 14.5부터,[AppTrackingTransparency framework](https:/
 더 자세한 사항은 [App privacy details on the App Store](https://developer.apple.com/documentation/apptrackingtransparency) 확인 <br>
 
 
+### 6.1 Requesting Access Permission
+권한 사용 요청에 대한 글 <br>
+####  6.1.1 진짜 필요할 때 요청하라고 한다. <br>
+당연한 말인 것 같은데 설명을 살펴보면, 아무래도 개인정보를 사용하는 것에 의심을 하는 건 당연한 일이다. 그니까 명백한 이유에서 사용한다고 알람을 띄우든, 근거가 될 만한 설명이나, 상황에 알람을 띄어야 한다는 것 같다. 예를 들어, "지도를 사용하려고 할 때 위치 접근 허용을 요청하는 것처럼" 내가 괜히 사용하지 않는 것 같은 데이터를 사용한다고 허가해달라고 하면 의심할 것 같긴하다. <br>
+####  6.1.2 데이터가 필요할 때, Launch 타임을 이용해라 <br>
+나는 아무래도 앱을 다운받고 바로 실행해서 런치 타임에 뜨는 알림(접근권한에 대한)은 크게 신경쓰지 않았다. 여기서 말한 신경은 "아무도 신경쓰지 않을때를 이용해서 접근을 하게해라!" 이게 아니라, "앱 사용하는데 불편함을 느끼지 않게, 걸리적 거리지 않게" 가 맞는 말인 것 같다.<br>
+ data tracking을 할 때는 luanch하자마자 알람을 띄우라고 한다.<br>
+유저가 설정에 직접 들어가서 권한 사용에 관한 이유 및 설명을 볼 수 있게 하면 좋은 것 같다.<br>
+####  6.1.3 요청한 데이터나 리소스에 대한 사용을 명확하게 설명하는 문구를 써라 <br>
+앱 이름 앞(?) 그리고 권한설정을 하기 전에 설명을 보여줘라.(purposing string or usage description string이라고 함)<br>
+간결함에 목표르 두고 문장을 간단 명로하게 이해하기 쉽게 써야한다(당연하죠?) <br>
+설명에서 약간의 조언을 해준다. 1. 문장을 사용할 것 2.수동적인 어투 쓰지말 것 3. 문장 마지막에 마침표(.)붙이기 <br>
+설명을 더 보려면 [Requesting Access to Protected Resources](https://developer.apple.com/documentation/uikit/protecting_the_user_s_privacy/requesting_access_to_protected_resources) 과 [App Tracking Transparency](https://developer.apple.com/documentation/apptrackingtransparency)여기를 참고해라 <br>
+#### 예시 <br>
+0. 권한 확인하는 곳에 쓴 설명
+1. 위치 접근
+2. 카메라 접근
+3. 연락처 접근 <br>
+
+<img width="523" alt="스크린샷 2021-08-03 오후 10 44 20" src="https://user-images.githubusercontent.com/70427427/128026053-1a3b6b66-b7ae-4f8d-b98a-3377c0dd9809.png"><br>
+<img width="300" alt="스크린샷 2021-08-03 오후 10 45 01" src="https://user-images.githubusercontent.com/70427427/128026161-509a1d0c-d795-4664-8d70-dab5c8569065.png">
+<img width="332" alt="스크린샷 2021-08-03 오후 10 45 17" src="https://user-images.githubusercontent.com/70427427/128026207-ff99d9ef-739e-49c3-a137-719d482b1807.png">
+<img width="297" alt="스크린샷 2021-08-03 오후 10 45 29" src="https://user-images.githubusercontent.com/70427427/128026232-7e0a9d89-967d-428a-85c0-fc24a075d348.png">
+<br>

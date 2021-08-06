@@ -187,7 +187,7 @@ iOS 15이후부터 Core Location은 필요할 때만, 일시적인 접근허용�
 버튼 누름만으로 설정에서 접근권한을 허용한 것과 같은? 그런 기능을 해야 한다. <br>
 1. if 클릭, 이전에 이미 허용한 상태라면, 아무 변화가 없으면 되고,  else 접근허용여부알람을 띄워주면 된다. <br>
 
-  다음은 LocatinoButton 구조체이다.
+  다음은 LocatinoButton 구조체이다. <br> 
     - at SwiftUi [LocationButton](https://developer.apple.com/documentation/corelocationui/locationbutton)<br>
     - at Swift [CLLoactionButton](https://developer.apple.com/documentation/corelocationui/cllocationbutton)<br>
 

@@ -165,3 +165,39 @@ iOS 14.5 그리고 iPadOs 14.5부터,[AppTrackingTransparency framework](https:/
 <img width="332" alt="스크린샷 2021-08-03 오후 10 45 17" src="https://user-images.githubusercontent.com/70427427/128026207-ff99d9ef-739e-49c3-a137-719d482b1807.png">
 <img width="297" alt="스크린샷 2021-08-03 오후 10 45 29" src="https://user-images.githubusercontent.com/70427427/128026232-7e0a9d89-967d-428a-85c0-fc24a075d348.png">
 <br>
+
+### 6.2 Using the Location Button
+iOS 15이후부터 Core Location은 필요할 때만, 일시적인 접근허용을 하게 해준다.<br>
+
+**버튼모양** <br>
+- Location 버튼의 모양은 상관없지만, 단번에 이해할 수 있어야 한다.<br>
+<img width="235" alt="스크린샷 2021-08-06 오전 11 58 32" src="https://user-images.githubusercontent.com/70427427/128449393-af84e96f-8dac-4960-9ec6-d14a027c79fe.png"><br>
+커스터마이징 가능 (일정 부분 내에서만)
+- 텍스트 선택 가능  1. Current Location or 2. Share My Current Loation
+- 글리프 선택가능 
+- 색상 변경 가능(배경색, 텍스트색, 글리프색)
+- 테두리 radius 수정가능 
+- 버튼이 신뢰가 가야하고, 단번에 이해할 수 있어야한다... 다른 속성들은 커스터마이징 불가  (이 부분은 따로 warningdmfh dkffuwnsekrh gksek.
+- 주의할 점이라고는 번역했을 때 글자가 벗어나지 않게 글자크기도 고려해야한다.
+>**IMPORTANT**<br>
+>시스템이 버튼과 관련항 일관된 문제를 발견하는 경우에, 유저들이 탭해도 접근권한이 부여되지 않아서, 결국에는 유저들의 앱에 대한 신뢰도가 떨어질 수 있다는 점을 유의해라 
+
+
+**Location Button 클릭 시** <br>
+버튼 누름만으로 설정에서 접근권한을 허용한 것과 같은? 그런 기능을 해야 한다. <br>
+1. if 클릭, 이전에 이미 허용한 상태라면, 아무 변화가 없으면 되고,  else 접근허용여부알람을 띄워주면 된다. <br>
+
+  다음은 LocatinoButton 구조체이다.
+    - at SwiftUi [LocationButton](https://developer.apple.com/documentation/corelocationui/locationbutton)<br>
+    - at Swift [CLLoactionButton](https://developer.apple.com/documentation/corelocationui/cllocationbutton)<br>
+
+2. 클릭 시 왜 허용해야하는지에 대한 설명, 그리고 유저의 위치표시자의 시작점을 보여준다.
+<img width="263" alt="스크린샷 2021-08-06 오후 12 09 26" src="https://user-images.githubusercontent.com/70427427/128450229-6d585212-6fd9-4288-980e-9524c1058385.png">
+3. 이미 한 번 허용한 사람들에게는 다시 설명할 필요 없이 띄어주기만 하면 된다.<br>
+4. 만약 몇 번 허용을 누른사람은 따로 누를 필요 없이, 허용하는 법에 대해서 알려주면 될 것 같다. <br>
+
+### 6.3 Using the Microphone in a ShazamKit App
+
+### 6.4 Displaying Custom Messaging Before the Alert
+
+### 6.5 Clarifying Tracking Requests

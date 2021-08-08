@@ -201,3 +201,16 @@ iOS 15이후부터 Core Location은 필요할 때만, 일시적인 접근허용�
 ### 6.4 Displaying Custom Messaging Before the Alert
 
 ### 6.5 Clarifying Tracking Requests
+
+---
+
+## 공부 중인 H.I.G 내용  (follwing H.I.G stuff is not arranged.)
+
+### Bars>Status Bar 
+상태바의 역할 
+상태바는 현재 장치의 상태에 대한 유용한 정보를 담고 있다
+장치와 설정내용에 따라 다르다
+- system-provided 상태바를 사용해야한다.
+- 커스텀화 x only Light or Dark 
+- 
+

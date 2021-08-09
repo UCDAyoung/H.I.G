@@ -207,10 +207,12 @@ iOS 15이후부터 Core Location은 필요할 때만, 일시적인 접근허용�
 ## 공부 중인 H.I.G 내용  (follwing H.I.G stuff is not arranged.)
 
 ### Bars>Status Bar 
-상태바의 역할 
-상태바는 현재 장치의 상태에 대한 유용한 정보를 담고 있다
-장치와 설정내용에 따라 다르다
-- system-provided 상태바를 사용해야한다.
-- 커스텀화 x only Light or Dark 
-- 
+상태바의 역할 <br>
+화면상단에 위치하며, 현 기기의 상태에 대한 유용한 정보를 담고 있다.<br>
+기기와 설정내용에 따라 다르다<br>
+- system-provided 상태바를 사용해야한다. -> 커스텀화 x, only Light or Dark 
+- Light는 어두운 컨텐츠에 / Dark는 밝은 컨텐츠에 
+- Status bar뒤에 컨텐츠를 숨기기
+- 전체화면으로 컨텐츠를 보여줄 때, status bar 숨기기  
+- 단, status bar가 영구적으로 사라지는 것을 주의
 
